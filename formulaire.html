@@ -79,27 +79,28 @@
 			<div class="col-sm-6">
 				<form id="form_1">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom Prenom
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="mail">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input type="email" id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="msg">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="msg" required id="how" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="msg">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" name="user_message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -126,7 +127,7 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center text-size">
+				<p class="text-center color-t text-size">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
